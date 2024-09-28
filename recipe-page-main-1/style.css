@@ -1,0 +1,107 @@
+
+.parent{width: 800px;
+height:1150px;
+background-color: hsl(30, 54%, 90%);
+margin:auto;/*သူ့ကိုပေးလိုက်တော့ center ကျသွားပါတယ်*/
+display:flex;
+align-items: center;
+}
+
+.main{
+    width:480px;
+    height: 990px;
+    background-color: white;
+   border-radius: 5px;
+   padding:30px;
+   margin: 20px 120px;
+}
+.boxWd{
+    width: 460px;
+}
+.recipe{
+    margin: 7px 0px;    
+        font-family: "Young Serif", serif;
+        font-size: 20px;
+        font-weight: 400px;
+        font-style: normal;             
+}
+.image1{
+    width: 480px;
+    height: 180px;
+    border-radius: 3px;
+}
+.easyfont{
+    font-size: 12px;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    opacity:0.6;
+}
+
+.easy{
+    margin-bottom: 7px;
+    line-height: 17px;
+}
+.time{
+    background-color: rgb(246, 233, 235);
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 7px;
+  }
+.preparation{
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    color:rgb(138, 9, 9);
+}
+.prepTime{padding-bottom:7px;    
+}
+.ppTime{
+    padding :0px;
+    margin-left: 17px;
+}
+
+.addBold{
+    font-weight: bold;
+}
+
+.ingre{
+    font-family: "Young Serif", serif;
+        font-weight: 300px;
+        font-style: normal; 
+        color:rgb(138, 9, 9);    
+        font-size: 18px;
+        margin: 6px 6px;
+    
+}
+.ingreUl{
+    padding:0;   
+    margin-top: 5px;
+    margin-left: 8px; 
+   
+}
+.barrier{
+    background-color: black;
+    width: 100%;
+    height: 0.3px;
+    opacity:0.2;
+    margin: 4px 6px;
+}
+.nutri{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.table{
+    margin: 6px 6px;
+}
+.nutriBoxWd{width: 280px;
+    margin-left: 8px;
+}
+.colorWeight{color:rgb(138, 9, 9);   
+    font-weight: bold;
+}
+li::marker {
+    color:rgb(138, 9, 9);  /*list တွေရဲ့ အရောင်ကို ပြောင်းကြည့်တာဖြစ်တယ်*/ 
+    font-weight: bold;
+}
+
